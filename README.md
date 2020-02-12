@@ -61,6 +61,7 @@ Make sure you keep to the format in posts.txt or you'll probably break everythin
 -   `posts.txt` can be cleared and filled with new posts after update
 -   Doesn't harm any kittens
 
+```python3 run.py -h```
 
     usage: run.py [-h] [-u] [-a] [-t] [-c] [-d]
 
