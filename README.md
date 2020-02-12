@@ -13,6 +13,7 @@ Daily postings to Instagram on PythonEverywhere.
 
     wget https://raw.githubusercontent.com/impshum/InstaSpam/master/install.sh && sh install.sh
 
+
 -   Upload images to `images` folder
 -   Fill out `posts.txt` with all your captions referencing your images
 -   Schedule a task to run the daily script on PythonEverywhere
@@ -20,9 +21,11 @@ Daily postings to Instagram on PythonEverywhere.
 
     python3 /home/YOURUSERNAME/run.py
 
+
 ### Posts 101
 
 Make sure you keep to the format in posts.txt or you'll probably break everything.
+
 
     ---meta1.jpg
     Stuff 1
@@ -67,6 +70,7 @@ Make sure you keep to the format in posts.txt or you'll probably break everythin
       -t, --test    Test mode
       -c, --config  Change user/pass
       -d, --delete  Delete DB
+
 
 ### Notes
 
