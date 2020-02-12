@@ -1,3 +1,4 @@
+
 ## InstaSpam on PythonEverywhere
 
 Daily postings to Instagram on PythonEverywhere.
@@ -10,15 +11,19 @@ Daily postings to Instagram on PythonEverywhere.
 -   Open up a bash console on PythonEverywhere
 -   Run this script in the bash console you just opened on PythonEverywhere
 
+Copy -> Paste -> Hit Enter!
 
     wget https://raw.githubusercontent.com/impshum/InstaSpam/master/install.sh && sh install.sh
+
 
 -   Upload images to `images` folder
 -   Fill out `posts.txt` with all your captions referencing your images
 -   Schedule a task to run the daily script on PythonEverywhere
 
+Change YOURUSERNAME to your usename on PythonEverywhere
 
-    python3 /home/YOURUSERNAME/run.py
+     python3 /home/YOURUSERNAME/run.py
+
 
 ### Posts 101
 
