@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip3 --user install -U instabot
+pip3 install --user instabot
 wget "https://github.com/impshum/InstaSpam/archive/master.zip"
 unzip master.zip
 mkdir ~/data
