@@ -6,7 +6,6 @@ import os
 import argparse
 import configparser
 
-
 parser = argparse.ArgumentParser(
     description='InstaSpam v2.0 (by u/impshum)',
     epilog="If you lose your account it's on you!")
@@ -179,7 +178,9 @@ def main():
         with open(config_file, 'w+') as f:
             config.write(f)
         print('Login details saved')
-        if not config_mode:
+        if config_mode:
+            quit()
+        else:
             first_run = True
 
     config.read(config_file)
