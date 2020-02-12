@@ -11,7 +11,7 @@ Daily postings to Instagram on PythonEverywhere.
 -   Run this script in the bash console you just opened on PythonEverywhere
 
 
-    wget https://github.com/impshum/InstaSpam/archive/master.zip && sh install.sh
+    wget https://raw.githubusercontent.com/impshum/InstaSpam/master/install.sh && sh install.sh
 
 -   Upload images to `images` folder
 -   Fill out `posts.txt` with all your captions referencing your images
@@ -47,6 +47,26 @@ Make sure you keep to the format in posts.txt or you'll probably break everythin
     And down here!
 
     #hashtags
+
+
+### Script Help
+
+- Parses ```posts.txt``` and adds new posts to an SQLite database
+- Ignores duplicate captions
+- Works through posts until they've all been uploaded
+- ```posts.txt``` can be cleared and filled with new posts after update
+- Doesn't harm any kittens
+
+
+    usage: run.py [-h] [-u] [-a] [-t] [-c] [-d]
+
+    optional arguments:
+      -h, --help    show this help message and exit
+      -u, --update  Update from text file
+      -a, --all     Print all DB
+      -t, --test    Test mode
+      -c, --config  Change user/pass
+      -d, --delete  Delete DB
 
 ### Notes
 
